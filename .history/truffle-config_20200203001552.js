@@ -11,18 +11,12 @@ module.exports = {
             port: 8545,
             network_id: "*"
         },
-        test: {
-                  provider: function() {
-                    return new HDWalletProvider(mnemonic, "http://127.0.0.1:8545/");
-                  },
-                  network_id: '*',
-                },
-        "ropsten-infura": {
-            provider: () => new HDWalletProvider(process.env.TEST_MNEMONIC, "https://ropsten.infura.io/"+process.env.INFURA_KEY,  "04f838e39118400ab1ef5148836f2cb0"),
-            network_id: 3,
-            gas: 4700000,
-            gasPrice: 100000000000
-        },
+        // "ropsten-infura": {
+        //     provider: () => new HDWalletProvider(process.env.TEST_MNEMONIC, "https://ropsten.infura.io/"+process.env.INFURA_KEY, ),
+        //     network_id: 3,
+        //     gas: 4700000,
+        //     gasPrice: 100000000000
+        // },
          develop: {
                    port: 8545
                  },
