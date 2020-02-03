@@ -1629,6 +1629,69 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "Paused",
+          "type": "event",
+          "signature": "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+        },
+        "0x6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f8": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "PauserAdded",
+          "type": "event",
+          "signature": "0x6719d08c1888103bea251a4ed56406bd0c3e69723c8a1686e017e7bbe159b6f8"
+        },
+        "0xcd265ebaf09df2871cc7bd4133404a235ba12eff2041bb89d9c714a2621c7c7e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "PauserRemoved",
+          "type": "event",
+          "signature": "0xcd265ebaf09df2871cc7bd4133404a235ba12eff2041bb89d9c714a2621c7c7e"
+        },
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "Unpaused",
+          "type": "event",
+          "signature": "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+        }
+      },
+      "links": {},
+      "address": "0x903190E90c44Fb3d4D14F152141113eCbE89274C",
+      "transactionHash": "0x680f1421344a61ceac12b9c8f8274ac3039eeddfa7b3bfdb6a6673194b82a2cb"
+    },
     "5777": {
       "events": {
         "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258": {
@@ -1689,12 +1752,12 @@
         }
       },
       "links": {},
-      "address": "0x555039F4FdfF438bc57252374775643DBE7F7AfF",
-      "transactionHash": "0x4379b0260bae7761ecc51287887e3172894b1bd518b29027f2f51e2a5c3aa530"
+      "address": "0x903190E90c44Fb3d4D14F152141113eCbE89274C",
+      "transactionHash": "0xcd80585f5ac7d26dd5f8fc5ae423a1252a770df6db3479737980ab74b64d0277"
     }
   },
   "schemaVersion": "3.0.22",
-  "updatedAt": "2020-02-03T06:30:20.930Z",
+  "updatedAt": "2020-02-03T18:00:07.110Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
