@@ -10,7 +10,16 @@ A pet store owner, wants to allow his website to interact with a Dapp.  The Dapp
 	  	
 ### Pet Shop Testnet Address
 
-The *Pet Shop* contract has been deployed to [0xc22462d4bc50952b061c9e6c585fdd9a04d0d75a](https://etherscan.io/address/0xc22462d4bc50952b061c9e6c585fdd9a04d0d75a#code).
+The *Pet Shop* contract has been deployed to:  Unsuccessfully deployed to Ropsten.
+I've attempted to deploy using: 
+   Truffle Teams:  This is so cool - It has to be my truffle.config.js seetings. 
+   Truffle Develop:  
+      a. compile.
+      b. deploy --network ropsten --reset
+         Here I get the error message listed below.  Google searches led me to change my truffle.config.js file... but no cigar (but lots of great learning... smiles).
+      
+      Below is the intended link to the deployed application.  
+      (https://ropsten.infura.io/v3/04f838e39118400ab1ef5148836f2cb0).
 
 
 ## Contracts
@@ -63,7 +72,7 @@ Test if the owner of the expected pet is valid.
 <br />
 // Tet 
 ### Test 3 - testGetAdopterAddressByPetId()
-Test 
+Test retrieval of a singel Pet's Owner.
 
 <br />
 
