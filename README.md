@@ -12,7 +12,7 @@ A pet store owner, wants to allow his website to interact with a Dapp.  The Dapp
    The Pet Store website is not deployed.  
    Please follow steps below, to test this Dapp.
    
-   Please watch the demo video, before attempting the steps below.
+   Please watch the demo video before attempting to execute the steps below.
    The video outlines these steps.  
    The video is located at: https://drive.google.com/open?id=1deVKwOJQ3UHE7SPLZcsvxsCrfPbvcTB1
    
@@ -21,6 +21,7 @@ A pet store owner, wants to allow his website to interact with a Dapp.  The Dapp
     Preconditions: 
        a. Chrome Browser.
        b. Metamask Installed.
+       c. Linux OS.  (This was build on Ubuntu v18.04.3.
        
    ##### Setup and Configuration    
      Step 1.  The simplest way to pull this repository is to:
