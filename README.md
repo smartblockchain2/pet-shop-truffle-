@@ -1,10 +1,10 @@
 # Truffles Pet Shop Box Project
 
 ## Summary
-Demonstrate the use of an Adoption Dapp, to interact with an existing website and allow people to Adopt a Pets.
+Demonstrate the use of an Adoption Dapp, to interact with an existing website and allow people to Adopt Pets.
 
 ## Use Case.
-A pet store owner, wants to allow his website to interact with a Dapp.  The Dapp will provide his customers a decentralized gateway for handling the contractual adoption of a pet.
+A pet store owner, wants to allow his website to interact with a Dapp.  The Dapp will provide his customers a decentralized gateway for handling the selection of a pet for adoption.
 <br />
 <hr />
 
